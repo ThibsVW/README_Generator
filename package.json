@@ -1,0 +1,25 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "ReadmeGenerator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThibsVW/README_Generator.git"
+  },
+  "keywords": [
+    "rg"
+  ],
+  "author": "thibs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThibsVW/README_Generator/issues"
+  },
+  "homepage": "https://github.com/ThibsVW/README_Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.0"
+  }
+}
