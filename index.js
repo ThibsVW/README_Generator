@@ -5,7 +5,7 @@ inquirer.prompt ([
   {
     type: 'input',
     name: 'repo name',
-    message: "What's your repository name ?",
+    message: "What's your repository ?",
   },
   {
     type: 'checkbox',
