@@ -5,34 +5,32 @@ inquirer.prompt ([
   {
     type: 'input',
     name: 'repo name',
-    message: "What's your repository ?",
+    message: "What's your repository name?",
+    filter: function (val) {
+        return val.toLowerCase();
+      },
   },
   {
-    type: 'checkbox',
-    message: 'What languages do you know?',
-    name: 'languages',
-    choices: [
-      new inquirer.Separator(' = languages = '),
-      {
-        name: 'English',
+    type: 'input',
+    name: 'introduction',
+    message: "An introduction or lead on what problem your application solves",
+    filter: function (val) {
+        return val.toLowerCase();
       },
-      {
-        name: 'French',
-      },
-      {
-        name: 'Arabic',
-      },
-      {
-        name: 'Other',
-      },
-    ]
   },
   {
-    type: 'list',
-      name: 'Contact method',
-      message: 'What is your preferred method of communication?',
-      choices: ['Phone', 'Email', 'Fax'],
-      filter: function (val) {
+    type: 'input',
+    name: 'codes',
+    message: "Show a few code examples",
+    filter: function (val) {
+        return val.toLowerCase();
+      },
+  },
+  {
+    type: 'input',
+    name: 'instruction',
+    message: "Explain how your application works",
+    filter: function (val) {
         return val.toLowerCase();
       },
   },
