@@ -1,7 +1,7 @@
-## Project Title: de 
+## Project Title: Readme Markdown Generator 
 
 ## Description: 
-de 
+This is a command-line application that dynamically generates a professional README.md from a user's input using the Inquirer package. 
 
 ## Table of Contents 
 * [Installation](#Installation) 
@@ -12,15 +12,15 @@ de
 * [License](#License)  
 
 ## Installation: 
-e 
+[Install Visal Sudio Code](https://code.visualstudio.com/) & [Node](https://nodejs.org/en/) 
 
 ## Usage: 
-e 
+var inquirer = require('inquirer'); 
 
 ## Licenses: 
-undefined 
+License 1
 
 ## Github Profile: 
-ded 
+ThibsVW 
 
-## Email me at de. 
+## Email me at th.vw@hotmail.com. 
