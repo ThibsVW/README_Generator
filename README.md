@@ -15,10 +15,10 @@ This is a command-line application that dynamically generates a professional REA
 [Install Visal Sudio Code](https://code.visualstudio.com/) & [Node](https://nodejs.org/en/) 
 
 ## Usage: 
-var inquirer = require('inquirer'); 
+Inquirer / fs /  
 
 ## Licenses: 
-License 1
+undefined 
 
 ## Github Profile: 
 ThibsVW 
